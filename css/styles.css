@@ -7,12 +7,12 @@
 
 h1 {
     font-family: "Bold";
-    color: black;
+    color: white;
     font-size: 45px;
 }
 
 body {
-    background-color: lightskyblue;
+    background-color: yellow;
 }
 
 ul, ol {
@@ -20,7 +20,7 @@ ul, ol {
 }
 
 .header {
-    background-color: orange;
+    background-color: black;
     display: flex;
     padding: 10px;
     font-size: 20px;
@@ -45,7 +45,7 @@ ul, ol {
 }
 
 .barra_item:hover {
-    border: solid 1px black;
+    color: white;
     transform: scale(1.1);
 }
 
