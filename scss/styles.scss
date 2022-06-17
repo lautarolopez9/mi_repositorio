@@ -145,7 +145,8 @@ $colores-menu:(inicio:white, actividades:white, sedes:white, contacto:white);
 
 @each $menu, $valor in $colores-menu {
 
-    .hub {$menu} {
-        background-color: $valor;
+    .hub {$menu}{
+        @extend barra;
+        background-color:$valor ;
     }
 }
