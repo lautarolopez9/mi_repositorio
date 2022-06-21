@@ -140,13 +140,3 @@ body {
         margin-right: 80px;
     }
 }
-
-$colores-menu:(inicio:white, actividades:white, sedes:white, contacto:white);
-
-@each $menu, $valor in $colores-menu {
-
-    .hub {$menu}{
-        @extend barra;
-        background-color:$valor ;
-    }
-}
