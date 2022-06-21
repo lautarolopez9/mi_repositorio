@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-<!--En las actividades especificas voy a meter un gif de cada deporte !-->
 
 <body>
     <header>
@@ -31,32 +30,79 @@
     </header>
 
     <main>
-        <div class="fotoslinks">
-            <li><a href="natacion.html">
-                    <img class="foto" src="../img/natacion.jpeg" alt="Natacion">
-                </a></li>
-            <li><a href="boxeo.html">
-                    <img class="foto" src="../img/boxeo.jpg" alt="Boxeo">
-                </a></li>
-            <li><a href="musculacion.html">
-                    <img class="foto" src="../img/musculacion.jpg" alt="Musculacion">
-                </a></li>
-            <li><a href="zumba.html">
-                    <img class="foto" src="../img/zumba.jpg" alt="Zumba">
-                </a></li>
-            <li><a href="spinning.html">
-                    <img class="foto" src="../img/Spinning.jpg" alt="Spinening">
-                </a></li>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="natacion.html"><img src="../img/natacion.jpeg" class="d-block w-100" alt="Natacion"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Natacion</h4>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="musculacion.html"><img src="../img/musculacion.jpg" class="d-block w-100"
+                            alt="Musculacion"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Musculacion</h4>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="boxeo.html"><img src="../img/boxeo.jpg" class="d-block w-100" alt="Boxeo"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Boxeo</h4>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="zumba.html"><img src="../img/zumba.jpg" class="d-block w-100" alt="Zumba"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Zumba</h4>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="spinning.html"><img src="../img/spinninggallery_01-8401e0af.png" class="d-block w-100" alt="Spinning"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Spinning</h4>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </main>
 
     <footer>
         <h4 class="texto4">Atencion al cliente</h4>
-        <div class="texto3 textobs">Tu mejor versión te espera. Disfrutá de amplios espacios para tu entrenamiento al mejor
+        <div class="texto3 textobs">Tu mejor versión te espera. Disfrutá de amplios espacios para tu entrenamiento al
+            mejor
             precio de Buenos Aires.</div>
-            <a href="https://www.facebook.com"><img class="facebook" src="../img/facebook.jpg" alt="Logo facebook"></a>
-            <a href="https://www.instagram.com"><img class="instagram"
-                    src="../img/instagram-logo-041EABACE1-seeklogo.com.png" alt="Logo instagram"></a>
+        <a href="https://www.facebook.com"><img class="facebook" src="../img/facebook.jpg" alt="Logo facebook"></a>
+        <a href="https://www.instagram.com"><img class="instagram"
+                src="../img/instagram-logo-041EABACE1-seeklogo.com.png" alt="Logo instagram"></a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
