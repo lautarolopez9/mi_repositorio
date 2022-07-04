@@ -33,13 +33,23 @@
         <h3 class="texto1">BakiFitness@gmail.com</h3>
         <img class="imagencontacto" src="../img/hombre maquina.jpg" alt="Hombre maquina">
         <form action="" method="post">
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Nombre y Apellido" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
 
-            <input type="email" name="" id="" placeholder="Email">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar todo">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+            </div>
+
+            <div class="input-group">
+                <span class="input-group-text">Mensaje</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+
+            <input class="btn btn-light" type="submit" value="Submit">
+            <input class="btn btn-light" type="reset" value="Reset">
         </form>
     </main>
 
